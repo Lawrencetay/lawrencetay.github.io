@@ -1,0 +1,381 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+/* Time CSS here */
+
+.image_swap img {
+  display: none;
+}
+
+.number_swap img {
+  display: none;
+}
+
+.team_swap img {
+  display: none;
+}
+
+.home_swap img{
+  display: none;
+}
+
+.logo_swap img{
+  display: none;
+}
+
+.trademark_swap img{
+  display: none;
+}
+
+/*12.00-12.30 jordan*/
+
+body.h12.halfH .jordan1 {
+  display: block;
+}
+
+body.h12.halfH .jordan00_00 {
+  display: block;
+}
+
+body.h12.halfH .bulls_name {
+  display: block;
+}
+
+/*12.30-01.00 kobe*/
+
+body.h12.fullH .kobe1 {
+  display: block;
+}
+
+body.h12.fullH .kobe00_30 {
+  display: block;
+}
+
+body.h12.fullH .lakers_name {
+  display: block;
+}
+
+/*01.00-01.30 jordan*/
+
+body.h1.halfH .jordan2 {
+  display: block;
+}
+
+body.h1.halfH .jordan01_00 {
+  display: block;
+}
+
+body.h1.halfH .bulls_home {
+  display: block;
+}
+
+/*01.30-02.00 kobe*/
+
+body.h1.fullH .kobe2 {
+  display: block;
+}
+
+body.h1.fullH .kobe01_30 {
+  display: block;
+}
+
+body.h1.fullH .lakers_home {
+  display: block;
+}
+
+/*02.00-02.30 jordan*/
+
+body.h2.halfH .jordan3 {
+  display: block;
+}
+
+body.h2.halfH .jordan02_00 {
+  display: block;
+}
+
+body.h2.halfH .bulls_logo {
+  display: block;
+}
+
+/*02.30-03.00 kobe*/
+
+body.h2.fullH .kobe3 {
+  display: block;
+}
+
+body.h2.fullH .kobe02_30 {
+  display: block;
+}
+
+body.h2.fullH .lakers_logo {
+  display: block;
+}
+
+/*03.00-03.30 jordan*/
+
+body.h3.halfH .jordan4 {
+  display: block;
+}
+
+body.h3.halfH .jordan03_00 {
+  display: block;
+}
+
+body.h3.halfH .bulls_trademark {
+  display: block;
+}
+
+/*03.30-04.00 kobe*/
+
+body.h3.fullH .kobe4 {
+  display: block;
+}
+
+body.h3.fullH .kobe03_30 {
+  display: block;
+}
+
+body.h3.fullH .lakers_trademark {
+  display: block;
+}
+
+/*04.00-04.30 jordan*/
+
+body.h4.halfH .jordan5 {
+  display: block;
+}
+
+body.h4.halfH .jordan04_00 {
+  display: block;
+}
+
+body.h4.halfH .bulls_name {
+  display: block;
+}
+
+/*04.30-05.00 kobe*/
+
+body.h4.fullH .kobe5 {
+  display: block;
+}
+
+body.h4.fullH .kobe04_30 {
+  display: block;
+}
+
+body.h4.fullH .lakers_name {
+  display: block;
+}
+
+/*05-05.30 jordan*/
+
+body.h5.halfH .jordan6 {
+  display: block;
+}
+
+body.h5.halfH .jordan05_00 {
+  display: block;
+}
+
+body.h5.halfH .bulls_home {
+  display: block;
+}
+/*05.30-06.00 kobe*/
+
+body.h5.fullH .kobe6 {
+  display: block;
+}
+
+body.h5.fullH .kobe05_30 {
+  display: block;
+}
+
+body.h5.fullH .lakers_home {
+  display: block;
+}
+
+/*06.00-06.30 jordan*/
+
+body.h6.halfH .jordan7 {
+  display: block;
+}
+
+body.h6.halfH .jordan06_00 {
+  display: block;
+}
+
+body.h6.halfH .bulls_logo {
+  display: block;
+}
+
+/*06.30-07.00 kobe*/
+
+body.h6.fullH .kobe7 {
+  display: block;
+}
+
+body.h6.fullH .kobe06_30 {
+  display: block;
+}
+
+body.h6.fullH .lakers_logo {
+  display: block;
+}
+
+/*07.00-07.30 jordan*/
+
+body.h7.halfH .jordan8 {
+  display: block;
+}
+
+body.h7.halfH .jordan07_00 {
+  display: block;
+}
+
+body.h7.halfH .bulls_trademark {
+  display: block;
+}
+
+/*07.30-08.00 kobe*/
+
+body.h7.fullH .kobe8 {
+  display: block;
+}
+
+body.h7.fullH .kobe07_30 {
+  display: block;
+}
+
+body.h7.fullH .lakers_trademark {
+  display: block;
+}
+
+/*08.00-08.30 jordan*/
+
+body.h8.halfH .jordan9 {
+  display: block;
+}
+
+body.h8.halfH .jordan08_00 {
+  display: block;
+}
+
+body.h8.halfH .bulls_name {
+  display: block;
+}
+
+/*08.30-09.00 kobe*/
+
+body.h8.fullH .kobe9 {
+  display: block;
+}
+
+body.h8.fullH .kobe08_30 {
+  display: block;
+}
+
+body.h8.fullH .lakers_name {
+  display: block;
+}
+
+/*09.00-09.30 jordan*/
+
+body.h9.halfH .jordan10 {
+  display: block;
+}
+
+body.h9.halfH .jordan09_00 {
+  display: block;
+}
+
+body.h9.halfH .bulls_home {
+  display: block;
+}
+
+/*09.30-10.00 kobe*/
+
+body.h9.fullH .kobe10 {
+  display: block;
+}
+
+body.h9.fullH .kobe09_30 {
+  display: block;
+}
+
+body.h9.fullH .lakers_home {
+  display: block;
+}
+
+/*10.00-10.30 jordan*/
+
+body.h10.halfH .jordan11 {
+  display: block;
+}
+
+body.h10.halfH .jordan10_00 {
+  display: block;
+}
+
+body.h10.halfH .bulls_logo {
+  display: block;
+}
+
+/*10.30-11.00 kobe*/
+
+body.h10.fullH .kobe11 {
+  display: block;
+}
+
+body.h10.fullH .kobe10_30 {
+  display: block;
+}
+
+body.h10.fullH .lakers_logo {
+  display: block;
+}
+
+/*11.00-11.30 jordan*/
+
+body.h11.halfH .jordan12 {
+  display: block;
+}
+
+body.h11.halfH .jordan11_00 {
+  display: block;
+}
+
+body.h11.halfH .bulls_trademark {
+  display: block;
+}
+
+/*11.30-12.00 kobe*/
+
+body.h11.fullH .kobe12 {
+  display: block;
+}
+
+body.h11.fullH .kobe11_30 {
+  display: block;
+}
+
+body.h11.fullH .lakers_trademark {
+  display: block;
+}
